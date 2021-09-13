@@ -25,6 +25,18 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+
+/* background color*/
+.background{
+  background-image: linear-gradient(rgb(87, 87, 230),gray);
+}
+
+.card img{
+  width: 50%;
+}
+.fas{
+  color: orange;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -36,7 +48,8 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
+  padding: 30px;
+  margin: 10px;
   transition: 0.6s;
 }
 .single-product:hover {
